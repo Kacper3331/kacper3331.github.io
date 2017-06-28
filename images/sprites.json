@@ -32,9 +32,17 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":50},
 	"sourceSize": {"w":50,"h":50}
 },
+"second_bullet.png":
+{
+	"frame": {"x":1415,"y":0,"w":22,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":23},
+	"sourceSize": {"w":22,"h":23}
+},
 "second_spaceship.png":
 {
-	"frame": {"x":1415,"y":0,"w":60,"h":107},
+	"frame": {"x":1437,"y":0,"w":60,"h":107},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":107},
@@ -42,7 +50,7 @@
 },
 "spaceship.png":
 {
-	"frame": {"x":1475,"y":0,"w":60,"h":107},
+	"frame": {"x":1497,"y":0,"w":60,"h":107},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":107},
@@ -53,8 +61,8 @@
 	"version": "1.0",
 	"image": "sprites.png",
 	"format": "RGBA8888",
-	"size": {"w":1535,"h":720},
+	"size": {"w":1557,"h":720},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:2cdec83442d841597509aac7faf2b82c:3c1593950ef9c324056583323b5ac7fe:1eabdf11f75e3a4fe3147baf7b5be24b$"
+	"smartupdate": "$TexturePacker:SmartUpdate:da3398bdf5c77e9f9da646f8378e7878:a770c85087fdc2e13c9e41f3114f29b9:1eabdf11f75e3a4fe3147baf7b5be24b$"
 }
 }

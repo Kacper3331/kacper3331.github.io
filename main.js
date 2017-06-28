@@ -122,7 +122,7 @@ function setup() {
 
     attack_second.press = function () {
         game.shoot(second, 4.71, second.halfWidth, 0, game.stage, 7, bullets_second, function () {
-                return game.sprite("bullet.png");
+                return game.sprite("second_bullet.png");
             }
         );
 
@@ -288,8 +288,6 @@ function play() {
         }
 
     }
-
-
 
     aliens.forEach(function (alien) {
 
