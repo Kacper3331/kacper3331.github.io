@@ -33,7 +33,7 @@ function setup() {
 
     game.stage.putBottom(cannon, -200, -40);
 
-    game.stage.putBottom(second, 200, -140);
+    game.stage.putBottom(second, 200, -40);
 
     bullets = [];
 
@@ -344,13 +344,14 @@ function next_level() {
 
     game.remove(aliens);
     game.remove(bullets);
+    game.remove(bullets_second);
 
     game.remove(gameOverMessage);
     display_winner.content = "";
 
     game.stage.putBottom(cannon, -200, -40);
 
-    game.stage.putBottom(second, 200, -140);
+    game.stage.putBottom(second, 200, -40);
 
     game.state = play;
     game.resume();
@@ -372,6 +373,7 @@ function reset() {
 
     game.remove(aliens);
     game.remove(bullets);
+    game.remove(bullets_second);
 
     game.remove(gameOverMessage);
 
@@ -379,7 +381,7 @@ function reset() {
 
     game.stage.putBottom(cannon, -200, -40);
 
-    game.stage.putBottom(second, 200, -140);
+    game.stage.putBottom(second, 200, -40);
 
     game.state = play;
     game.resume();
